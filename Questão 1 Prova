@@ -1,0 +1,32 @@
+#A partir do que aprendemos até agora:
+#Crie um exemplo de cada uma das principais tipagens de variáveis.
+#Crie uma solicitação de dados ao usuário.
+#Imprima a solicitação anterior na tela com uma mensagem personalizada.
+
+# 1 Inteiro (int):                                 
+    #N= 10
+
+# 2 Ponto Flutuante (float):                 
+   # NF = 10.5
+
+#3 *String (str):
+   #TEX = " Olá, mundo! "
+
+#4 *Booleano (bool):
+   #VF= True
+
+
+print('Olá seja bem vindo !!!')
+
+Nome=str(input('Digite seu nomme: '))
+Idade=int(input('Digite sua idade: '))
+Salario=float(input('Digite seu salrio'))
+
+print(f'Seu nome é: {Nome}')
+print(f'Sua idade é: {Idade} ')
+print(f'Seu salario é: {Salario}')
+
+if Salario>1500:
+    print('Você tem que trabalhar mais: ')
+else:
+    print('Sua mãe mandou você estudar: ')
